@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5e7ef;
+  color: #ae4c9d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  position: relative;
+}
+
+.counter {
+  font-size: 40px;
+}
+
+.loading-bar-back {
+  position: absolute;
+  height: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #e2b6d5;
+}
+
+.loading-bar-front {
+  position: absolute;
+  height: 8px;
+  width: 0%;
+  border-radius: 5px;
+  border: none;
+  background-color: #cc92c1;
+}
