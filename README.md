@@ -31,3 +31,5 @@ When I initially used **`setInterval()`** in my code, I noticed that the counter
 However, later i realized that the **`setTimeout()`** method must be used instead, which schedules a function to be executed once after a specified delay. This ensured that each instance of the function had to complete before the next one was called. The counter and loading bar were updated once every 20 milliseconds until the counter reached 100%, at which point the function stopped running.
 
 To fix the issue with **`setInterval()`**, I would need to ensure that the previous call to the function had completed before scheduling the next one. This can be done by using a boolean variable to indicate whether the function is currently running, and to only schedule a new call to the function if it's not already running. Alternatively, I could use **`clearInterval()`** to stop the interval once the counter reaches 100%.
+
+![Untitled video - Made with Clipchamp](https://github.com/paribhandarkar/loading-bar/assets/76446574/66c04064-c0ac-474c-bbe5-5c43485eb2b3)
